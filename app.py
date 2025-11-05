@@ -24,15 +24,15 @@ Secure Flask application factory (app.py)
 
 # Optional security extensions
 try:
-except Exception:
+    except Exception:
     CSRFProtect = None
 
 try:
-except Exception:
+    except Exception:
     Talisman = None
 
 try:
-except Exception:
+    except Exception:
     Limiter = None
     get_remote_address = None
 
